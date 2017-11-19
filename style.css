@@ -8,10 +8,14 @@ body {
 
 header {
     font-size: 18px;
-    color: white;
+    font-weight: bold;
+    color: black;
     width: 100%;
     padding: 1px;
     margin:0px;
+    position: fixed;
+    top:0;
+    background-image:url("../haripermadi.github.io/images/sand.jpg");
     }
 
 li{
@@ -22,13 +26,13 @@ li{
 .hello{
     background-image:url("../haripermadi.github.io/images/beach.jpg");
     box-sizing: border-box;
-    padding: 65px;
+    padding: 72px;
     text-align: center;
     width: 100%;
     color:white;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
-    margin:0px;
+    margin-top:58px;
 }
 #mynamefont{
     font-size: 100px;
@@ -90,8 +94,6 @@ table {
    font-family:Arial, Helvetica, sans-serif;
    border-collapse: collapse;
    width: 50%;
-   position: relative;
-   left: 25%;
    margin-top: 50px;
    
 }
