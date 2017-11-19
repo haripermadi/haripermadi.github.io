@@ -3,7 +3,7 @@ html, body{
     padding: 0px;
 }
 body {
-    background-image:url("../website/images/dust.png");
+    background-image:url("../haripermadi.github.io/images/dust.png");
 }
 
 header {
@@ -20,7 +20,7 @@ li{
         }
 
 .hello{
-    background-image:url("../website/images/beach.jpg");
+    background-image:url("../haripermadi.github.io/images/beach.jpg");
     box-sizing: border-box;
     padding: 65px;
     text-align: center;
@@ -104,7 +104,7 @@ td, th{
 
 #contact {
     width: 100%;
-    background-image:url("../website/images/beach2.jpg");
+    background-image:url("../haripermadi.github.io/images/beach2.jpg");
     padding-bottom: 500px;
     color: navy;
     text-align: center;
@@ -138,7 +138,7 @@ footer {
     text-align: center;
 }
 .thankyou{
-    background-image:url("../website/images/wildchair.jpg");
+    background-image:url("../haripermadi.github.io/images/wildchair.jpg");
     color: white;
     text-align:center;
     font-family: 'Berkshire Swash', cursive;
