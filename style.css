@@ -131,6 +131,7 @@ td, th{
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+    border-style: solid;
 }
 footer {
     background-color: black;
