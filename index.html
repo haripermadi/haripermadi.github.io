@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Hari Nur Permadi">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Gloria+Hallelujah|Sacramento" rel="stylesheet"> 
+        <!-- icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Hari Nur Permadi</title>
+    </head>
+    <body>
+        <!-- Navigation bar-->
+        <header id="home">
+            <nav>
+                <ul class="navigation">
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#myworks"><li>My Works</li></a>
+                    <a href="#activities"><li>Activities</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                    
+                 </ul>
+            </nav>
+        </header>
+
+        <!-- Welcome bar-->
+        <div class="hello">
+            <h1 id="mynamefont">Hari Nur Permadi</h1>
+            <br />
+            <h2>Hello.. I am a Future Web Developer based in Indonesia.</h2>
+            <br />           
+        </div>
+        <!-- About-->
+        <div id="about">
+            <h2>About</h2>
+            <div id="left">
+                <p>Hello.. my name is <strong>Hari Nur Permadi</strong>, <br />
+                   I live in Bogor, the most rainy city in Indonesia! <br />
+                   I graduated as <em>Mining engineering</em> but dreamed to be <em>a Full Stack Web Developer</em>.<br />
+                   Currently, I am joining web developer bootcamp called <em>Hacktiv8</em> in Jakarta to pursue my dream.
+                </p>
+            </div>
+            <div id="right">
+            <!--- insert picture of me here-->
+                <img src= "../website/images/mypic.jpg" width="200" height="300" alt="picture of me" />
+            </div>
+        </div>
+        <hr />
+        <!-- Skill?-->
+        <div id="skills">
+            <h2>Skills</h2> <br />
+            <span>Here are my current skills and currently learning more skills.</span>
+            <ul>
+                <li><img src= "../website/images/htmllogo.png" width="100" height="100" alt="HTML" /></li>
+                <li><img src= "../website/images/csslogo.png" width="100" height="100" alt="CSS" /></li>
+            </ul>
+        </div>
+        <hr/>
+        <!-- works-->
+        <div id="myworks">
+            <h2>My Works</h2> <br />
+                <span>Here are my works.</span> <br />
+                <br />
+                <img src= "../website/images/coming.jpg" width="200" height="200" alt="soon" />
+        </div>
+        <hr />
+        <!--planning/table show activties-->
+        <div id="activities">
+            <h2>My Activities</h2><br />
+            <span> Here are my current activities at Hacktiv8 in order to be <em>a Full Stack Web Developer</em>.</span>
+            <br />
+            <table>
+                <tr>
+                    <th>November 2017</th>
+                    <th>December 2017</th>
+                    <th>January 2018</th>
+                    <th>February 2018</th>
+                    <th>March 2018</th>
+                </tr>
+                <tr>
+                    <td>Phase 0</td>
+                    <td>Phase 0</td>
+                    <td>Phase 1</td>
+                    <td>Phase 2</td>
+                    <td>Phase 3</td>
+                </tr>
+            </table>
+        </div>
+        <hr />
+        <!-- Contact Me-->
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <div id="leftcon">
+                <p>You can contact me through:</p>
+                <a href="https://web.facebook.com/hari.n.permadi" class="fa fa-facebook"></a> <!-- change to logo-->
+                <a href="https://www.linkedin.com/in/hari-nur-permadi-a1702698/" class="fa fa-linkedin"></a> <!-- change to logo-->
+            </div>
+            
+            <div id="rightcon">
+                <form action="thankyou.html" method="post">
+                You can also contact me by dropping messege here: <br /> 
+                <br />
+                <fieldset>
+                    <legend>Personal Information & Message</legend>
+                        <label for="Firstname">First Name:</label>
+                        <input type="text" name="firstname"> <br />
+                        <br />
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname"> <br />
+                        <br />
+                        <label for="email">Email address:</label>
+                        <input type="text" name="email"> <br />
+                        
+                        <br />
+                        How should I address you? <br />
+                        <br />
+                        <input for="mr-radio" type="radio" name="title" value="mr">
+                        <label for="mr-radio">Mr.</label>
+                        <input for="mrs-radio" type="radio" name="title" value="mrs">
+                        <label for="mrs-radio">Mrs.</label>
+                        <input for="ms-radio" type="radio" name="title" value="ms">
+                        <label for="ms-radio">Ms.</label>
+                        <br />
+                        <br />
+                        <label for="messege">Message:</label> <br />
+                        <textarea name"message" rows="10" cols="40">Enter your message here.. </textarea> <br />
+                        <input type="submit" name="submit">
+    
+                </fieldset>
+            </form>
+            </div>
+        </div>
+        <div>
+            <footer>
+                Created by: Hari Nur Permadi
+            </footer>
+        </div>
+    </body>
+    
+</html>

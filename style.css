@@ -1,0 +1,146 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image:url("../website/images/dust.png");
+}
+
+header {
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    margin:0px;
+    }
+
+li{
+    display: inline-block;
+    width: 85px;
+        }
+
+.hello{
+    background-image:url("../website/images/beach.jpg");
+    box-sizing: border-box;
+    padding: 65px;
+    text-align: center;
+    width: 100%;
+    color:white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    margin:0px;
+}
+#mynamefont{
+    font-size: 100px;
+    font-family: 'Sacramento', cursive;
+}
+p {
+    font-size:23px;
+}
+#about{
+    width:100%;
+    padding-bottom: 310px;
+    background-color: #013243;
+    color: white;
+    text-align: center;
+}
+h2{
+    padding:0px;
+    margin:0px;
+}
+#left{
+    width: 50%;
+    float:left;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+    }
+#right{
+    float: right;
+    width:50%;
+}
+#skills {
+    background-color: #81CFE0;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+#skills li{
+    margin-right:40px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+#myworks {
+    background-color:#2C3E50;
+    padding-bottom: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+#activities {
+    background-color: #6BB9F0;
+    padding-bottom: 250px;
+    text-align: center;
+}
+
+table {
+   border-spacing: 10px;
+   font-family:Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 50%;
+   position: relative;
+   left: 25%;
+   margin-top: 50px;
+   
+}
+
+td, th{
+    border: 5px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
+#contact {
+    width: 100%;
+    background-image:url("../website/images/beach2.jpg");
+    padding-bottom: 500px;
+    color: navy;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+#contact h2{
+    margin-bottom: 10px;
+}
+#leftcon{
+        width: 50%;
+        float:left;
+        }
+#rightcon{
+        float: right;
+        width:50%;
+        text-align: left;
+    }
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    background-color: black;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+.thankyou{
+    background-image:url("../website/images/wildchair.jpg");
+    color: white;
+    text-align:center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size:20px;
+}
