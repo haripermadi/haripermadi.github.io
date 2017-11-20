@@ -52,7 +52,9 @@ p {
     background-color: #013243;
     color: white;
     text-align: center;
-    padding-top:20px;
+}
+body > div{
+    padding-top:60px;
 }
 h2{
     padding:0px;
@@ -145,6 +147,10 @@ footer {
     width:100%;
     color: white;
     text-align: center;
+
+}
+.foot{
+    
 }
 .thankyou{
     background-image:url("../haripermadi.github.io/images/wildchair.jpg");
