@@ -13,13 +13,19 @@ header {
     padding: 1px;
     margin:0px;
     position: fixed;
+    z-index: 10px;
     top:0;
-    background-image:url("../haripermadi.github.io/images/sand.jpg");
+    background-color:#F2F1EF;
     }
+header li{
+    border-right: 2px solid black;
+    text-align: center;
+}
 
 li{
     display: inline-block;
     width: 85px;
+    
         }
 
 .hello{
